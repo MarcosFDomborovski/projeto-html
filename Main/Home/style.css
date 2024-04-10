@@ -55,10 +55,31 @@ main {
     }
 }
 
-#section1, #section2{
+#section1,
+#section2 {
     background-color: #333;
     padding: 1px 10px;
     margin-bottom: 50px;
     margin-top: 10px;
     color: white;
+}
+
+.slides {
+    height: 450px;
+    margin: 10px;
+    display: flex;
+}
+
+#img_scroll {
+    background-image: url(/Main/assets/imgs/steamguy.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+#img_scroll:hover {
+    background-image: url(/Main/assets/imgs/hehe.jpg);
+    
 }
