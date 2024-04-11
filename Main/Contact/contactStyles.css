@@ -58,3 +58,15 @@ main {
         width: 100%;
     }
 }
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.botoes input {
+    width: 300px;
+    border-radius: 10px;
+    height: 30px;
+}
