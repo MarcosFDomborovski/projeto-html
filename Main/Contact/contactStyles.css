@@ -88,11 +88,11 @@ main {
 input {
     border: none;
     background-color: #e9e7e7;
-    padding: 10px 90px;
     margin: 8px 0;
     font-size: 13px;
     border-radius: 8px;
-    width: 100%;
+    width: 20rem;
+    height: 2.5rem;
 
 }
 
