@@ -43,6 +43,15 @@ footer {
     padding: 10px;
 }
 
+footer {
+
+    display: inline-block;
+    
+    width: 100%;
+    padding: 20px;
+
+}
+
 .main {
     display: inline-block;
     vertical-align: top;
